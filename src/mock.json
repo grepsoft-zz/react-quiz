@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+            "correct_answer": "Wales",
+            "incorrect_answers": [
+                "Moldova",
+                "Czech Republic",
+                "Denmark"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "On a dartboard, what number is directly opposite No. 1?",
+            "correct_answer": "19",
+            "incorrect_answers": [
+                "20",
+                "12",
+                "15"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many colors are there in a rainbow?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                "8",
+                "9",
+                "10"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these colours is NOT featured in the logo for Google?",
+            "correct_answer": "Pink",
+            "incorrect_answers": [
+                "Yellow",
+                "Blue",
+                "Green"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What do the letters in the GMT time zone stand for?",
+            "correct_answer": "Greenwich Mean Time",
+            "incorrect_answers": [
+                "Global Meridian Time",
+                "General Median Time",
+                "Glasgow Man Time"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Poland in Polish?",
+            "correct_answer": "Polska",
+            "incorrect_answers": [
+                "Pupcia",
+                "Polszka",
+                "P&oacute;land"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What do the letters of the fast food chain KFC stand for?",
+            "correct_answer": "Kentucky Fried Chicken",
+            "incorrect_answers": [
+                "Kentucky Fresh Cheese",
+                "Kibbled Freaky Cow",
+                "Kiwi Food Cut"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What color is the &quot;Ex&quot; in FedEx Ground?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Light Blue",
+                "Orange"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which sign of the zodiac comes between Virgo and Scorpio?",
+            "correct_answer": "Libra",
+            "incorrect_answers": [
+                "Gemini",
+                "Taurus",
+                "Capricorn"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Earth is located in which galaxy?",
+            "correct_answer": "The Milky Way Galaxy",
+            "incorrect_answers": [
+                "The Mars Galaxy",
+                "The Galaxy Note",
+                "The Black Hole"
+            ]
+        }
+    ]
+}
