@@ -1,42 +1,38 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./App.css";
-import Question from "./components/Question";
-import Action from "./components/Action";
-const mock = require("./mock");
+import Quiz from "./components/Quiz";
 
-// const questions = [];
-
-// mock.results.forEach((element) => {
-//   let item = {};
-//   item["question"] = element.question
-//     .replace(/&quot;/g, '"')
-//     .replace(/&shy;/g, "-");
-//   let ia = element.incorrect_answers;
-//   ia.push(element.correct_answer);
-//   item["answers"] = ia;
-//   item["correct_answer"] = element.correct_answer;
-//   questions.push(item);
-// });
+const endPoint = "https://opentdb.com/api.php?amount=10&category=9";
+//const endPoint = "./mock1.json";
 
 function App() {
-  const [idx, setIdx] = useState(0);
-  const [data, setData] = useState({ questions: [{question: ""}], isFetching: true});
+  const [data, setData] = useState({
+    questions: [{ question: "" }],
+    isFetching: true,
+  });
 
+  // load quiz data
   useEffect(() => {
-    setTimeout(() => {
-      setData({questions: mock.results, isFetching: false});
-    }, 2000);
+    loadQuiz();
   }, []);
+
+  const restartQuiz = () => {
+    loadQuiz();
+  };
+
+  async function loadQuiz() {
+    setData({
+      questions: [{ question: "" }],
+      isFetching: true,
+    });
+    const data = await axios.get(endPoint);
+    setData({ questions: data.data.results, isFetching: false });
+  }
 
   return (
     <div className="App">
-      <Question data={data} index={idx} />
-      <Action isFetching={data.isFetching}
-        next={() =>
-          setIdx(idx < data.questions.length - 1 ? idx + 1 : data.questions.length - 1)
-        }
-        previous={() => setIdx(idx > 0 ? idx - 1 : 0)}
-      />
+      <Quiz data={data} onRestart={restartQuiz} />
     </div>
   );
 }

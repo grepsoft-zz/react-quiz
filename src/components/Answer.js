@@ -1,22 +1,23 @@
 import React from "react";
-import { cleanUpSpecialChars } from '../util';
+import OneAnswer from "./OneAnswer";
 
 function Answer(props) {
-  const correctAnswer = props.answer.correct;
   const answersData = props.answer.answers || [];
 
-  function checkAnswer(answer) {
-    if (answer === correctAnswer) {
-      console.log("correct");
-    } else {
-      console.log("in-correct");
-    }
+  function onAnswer(e) { 
+    props.onAnswer(e);
   }
 
   const answers = answersData.map((a, idx) => (
-    <li key={idx} onClick={(e) => checkAnswer(a)}>
-      {cleanUpSpecialChars(a)}
-    </li>
+    <OneAnswer
+      answer={a}
+      correct={a === `${props.answer.correct}`}
+      highlightCorrect={props.highlightCorrect}
+      highlightInCorrect={props.highlightInCorrect}
+      key={idx}
+      wrong={props.wrong}
+      onAnswer={onAnswer}
+    />
   ));
 
   return <ul>{answers}</ul>;

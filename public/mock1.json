@@ -1,0 +1,97 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In past times, what would a gentleman keep in his fob pocket?",
+      "correct_answer": "Watch",
+      "incorrect_answers": ["Money", "Keys", "Notebook"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "A doctor with a PhD is a doctor of what?",
+      "correct_answer": "Philosophy",
+      "incorrect_answers": ["Psychology", "Phrenology", "Physical Therapy"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was &quot;YouTube&quot; founded?",
+      "correct_answer": "February 14, 2005",
+      "incorrect_answers": [
+        "May 22, 2004",
+        "September 12, 2005",
+        "July 19, 2009"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Nutella is produced by the German company Ferrero.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these companies does NOT manufacture automobiles?",
+      "correct_answer": "Ducati",
+      "incorrect_answers": ["Nissan", "GMC", "Fiat"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Bulls are attracted to the color red.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+      "correct_answer": "Thomas Jefferson",
+      "incorrect_answers": [
+        "Martin Van Buren",
+        "Ulysses Grant",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Located in Chile, El Teniente is the world&#039;s largest underground mine for what metal?",
+      "correct_answer": "Copper",
+      "incorrect_answers": ["Iron", "Nickel", "Silver"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of NASA&rsquo;s most famous space telescope?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": ["Big Eye", "Death Star", "Millenium Falcon"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The word &quot;aprosexia&quot; means which of the following?",
+      "correct_answer": "The inability to concentrate on anything",
+      "incorrect_answers": [
+        "The inability to make decisions",
+        "A feverish desire to rip one&#039;s clothes off",
+        "The inability to stand up"
+      ]
+    }
+  ]
+}

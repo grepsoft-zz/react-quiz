@@ -1,21 +1,27 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 
 function Action(props) {
-    const isFetching = props.isFetching;
+  const restart = props.showFinish;
 
-    if (!isFetching) {
-        return (
-            <Fragment>
-                <button onClick={props.previous}>Previous</button>
-                <button onClick={props.next}>Next</button>
-            </Fragment>
-    
-        );
-    } else {
-        return (
-            <></>
-        )
-    }
+  const restartBtn = restart ? (
+    <button disabled={props.disable} onClick={props.restart}>
+      Restart
+    </button>
+  ) : null;
+  const nextBtn = !restart ? (
+    <button disabled={props.disable} onClick={props.next}>
+      Next
+    </button>
+  ) : null;
+
+    return (
+      <Fragment>
+        {nextBtn}
+
+        {restartBtn}
+      </Fragment>
+    );
+
 }
 
 export default Action;
